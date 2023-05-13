@@ -9,7 +9,7 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(cors({
-    origin:"http://localhost:3000"
+    origin:"https://number-guessing-game-fe.netlify.app"
 }))
 
 mongoose.connect(process.env.MONGODB_URI
